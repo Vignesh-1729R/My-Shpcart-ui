@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI design</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body class="bg-dark">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo.png" class="img-fluid" style="width: 60px"
+          /></a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse d-none d-lg-flex justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav me-3 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-primary"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+            <button class="btn btn-outline-dark rounded">
+              <i class="fas fa-shopping-cart"></i>
+              Cart
+            </button>
+          </div>
+
+          <div
+            class="offcanvas offcanvas-end d-lg-none"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <img
+                src="images/logo.png"
+                class="img-fluid"
+                style="width: 60px"
+              />
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div
+              class="offcanvas-body d-flex flex-column justify-content-between"
+            >
+              <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-primary"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+              <button class="btn btn-outline-dark rounded mt-3">
+                <i class="fas fa-shopping-cart px-2"></i>Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="w-100 position-relative">
+      <div class="opacity-75">
+        <img src="./images/Background.png" class="img-fluid w-100" />
+      </div>
+      <div
+        class="text-center position-absolute top-50 start-50 translate-middle"
+      >
+        <h1 class="text-white fs-2 fw-bold">Shop in Style</h1>
+        <p class="text-white opacity-50">With this shop home page template.</p>
+      </div>
+    </section>
+
+    <section class="container py-5">
+      <div class="row">
+        <div
+          class="col-sm-12 col-md-3 d-flex justify-content-center align-items-stretch py-3"
+        >
+          <div
+            class="card d-flex flex-column bg-white shadow-lg"
+            style="width: 20rem; min-height: 32rem"
+          >
+            <img
+              class="card-img-top img-fluid"
+              src="./images/Classmate note.png"
+              alt="Card image cap"
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-between text-center flex-grow-1"
+            >
+              <div>
+                <h5 class="card-title">Classmate Notebook Marvel Edition</h5>
+                <p class="card-text text-dark opacity-75">
+                  Make your writing experience more smooth with Classmate
+                  notebooks.
+                </p>
+              </div>
+              <div class="mt-auto">
+                <p class="mb-2 fw-bold">$2</p>
+                <a href="#" class="btn btn-outline-dark w-100">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-sm-12 col-md-3 d-flex justify-content-center align-items-stretch py-3"
+        >
+          <div
+            class="card d-flex flex-column bg-white shadow-lg"
+            style="width: 20rem; min-height: 32rem"
+          >
+            <img
+              class="card-img-top img-fluid"
+              src="./images/Dell Laptop.png"
+              alt="Card image cap"
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-between text-center flex-grow-1"
+            >
+              <div>
+                <h5 class="card-title">Dell Laptop</h5>
+                <p class="card-text text-dark opacity-75">
+                  With Intel i5 12th gen 2.3ghx Processor 512GB SSD And 8GB
+                  RAM.<br />Sleek Design and Windows 10 pro.<br />
+                  Life Time MS office access.
+                </p>
+              </div>
+              <div class="mt-auto">
+                <p class="mb-2 fw-bold">$700</p>
+                <a href="#" class="btn btn-outline-dark w-100">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-sm-12 col-md-3 d-flex justify-content-center align-items-stretch py-3"
+        >
+          <div
+            class="card d-flex flex-column bg-white shadow-lg"
+            style="width: 20rem; min-height: 32rem"
+          >
+            <img
+              class="card-img-top img-fluid"
+              src="./images/led strp.png"
+              alt="Card image cap"
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-between text-center flex-grow-1"
+            >
+              <div>
+                <h5 class="card-title">LED Strip RGB</h5>
+                <p class="card-text text-dark opacity-75">
+                  DIVIZ Tech LED Strip with RGB Color Adjustment and Brightness.
+                </p>
+              </div>
+              <div class="mt-auto">
+                <p class="mb-2 fw-bold">$13</p>
+                <a href="#" class="btn btn-outline-dark w-100">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-sm-12 col-md-3 d-flex justify-content-center align-items-stretch py-3"
+        >
+          <div
+            class="card d-flex flex-column bg-white shadow-lg"
+            style="width: 20rem; min-height: 32rem"
+          >
+            <img
+              class="card-img-top img-fluid"
+              src="./images/Moto edge 60 pro.png"
+              alt="Card image cap"
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-between text-center flex-grow-1"
+            >
+              <div>
+                <h5 class="card-title">Moto Edge 60 Pro</h5>
+                <p class="card-text text-dark opacity-75">
+                  Moto Edge 60 pro freatures<br />Curve edge Display<br />OLED
+                  Display<br />Snapdragan 8Elite Processor 2.30Ghz clock
+                  speed<br />512gb ram<br />6000mah Battery.
+                </p>
+              </div>
+              <div class="mt-auto">
+                <p class="mb-2 fw-bold">$220</p>
+                <a href="#" class="btn btn-outline-dark w-100">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-sm-12 col-md-3 d-flex justify-content-center align-items-stretch py-3"
+        >
+          <div
+            class="card d-flex flex-column bg-white shadow-lg"
+            style="width: 20rem; min-height: 32rem"
+          >
+            <img
+              class="card-img-top img-fluid"
+              src="./images/LG HD.png"
+              alt="Card image cap"
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-between text-center flex-grow-1"
+            >
+              <div>
+                <h5 class="card-title">LG UHD TV</h5>
+                <p class="card-text text-dark opacity-75">
+                  LG UHD Nano cell techologhy makes Picture color Crip and have
+                  Power saver mode Dolby Atomos support.<br />Installation
+                  FREE<br />EMI Option Available<br />Free LG Earphones<br />3
+                  years Software update<br />Maintance Warrenty
+                </p>
+              </div>
+              <div class="mt-auto">
+                <p class="mb-2 fw-bold">$870</p>
+                <a href="#" class="btn btn-outline-dark w-100">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-sm-12 col-md-3 d-flex justify-content-center align-items-stretch py-3"
+        >
+          <div
+            class="card d-flex flex-column bg-white shadow-lg"
+            style="width: 20rem; min-height: 32rem"
+          >
+            <img
+              class="card-img-top img-fluid"
+              src="./images/Nike-Zoom-Freak.png"
+              alt="Card image cap"
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-between text-center flex-grow-1"
+            >
+              <div>
+                <h5 class="card-title">Nike Freak Shoes</h5>
+                <p class="card-text text-dark opacity-75">
+                  Nike Freak Shoes for Mens<br />Good Confort<br />1 year
+                  Warrenty<br />affordable price
+                </p>
+              </div>
+              <div class="mt-auto">
+                <p class="mb-2 fw-bold">$34</p>
+                <a href="#" class="btn btn-outline-dark w-100">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-sm-12 col-md-3 d-flex justify-content-center align-items-stretch py-3"
+        >
+          <div
+            class="card d-flex flex-column bg-white shadow-lg"
+            style="width: 20rem; min-height: 32rem"
+          >
+            <img
+              class="card-img-top img-fluid"
+              src="./images/Vegi cutter knifr.png"
+              alt="Card image cap"
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-between text-center flex-grow-1"
+            >
+              <div>
+                <h5 class="card-title">
+                  BOKAR SAGA's <br />Vegitable cutter Knife
+                </h5>
+                <p class="card-text text-dark opacity-75">
+                  Sharp Knife with Stainless Steal Blade Handle Grip Very shap
+                  Edges.
+                </p>
+              </div>
+              <div class="mt-auto">
+                <p class="mb-2 fw-bold">$8</p>
+                <a href="#" class="btn btn-outline-dark w-100">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-sm-12 col-md-3 d-flex justify-content-center align-items-stretch py-3"
+        >
+          <div
+            class="card d-flex flex-column bg-white shadow-lg"
+            style="width: 20rem; min-height: 32rem"
+          >
+            <img
+              class="card-img-top img-fluid"
+              src="./images/JBL BOOM.png"
+              alt="Card image cap"
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-between text-center flex-grow-1"
+            >
+              <div>
+                <h5 class="card-title">JBL BOOM BT Speaker</h5>
+                <p class="card-text text-dark opacity-75">
+                  Bluetooth Speaker freatures:<br />BT 5.3<br />Type-c
+                  Charging<br />4000 mah Battery<br />upto 15hrs Playback
+                </p>
+              </div>
+              <div class="mt-auto">
+                <p class="mb-2 fw-bold">$100</p>
+                <a href="#" class="btn btn-outline-dark w-100">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <footer class="container py-5">
+  <div class="row text-white">
+    <div class="col-12 col-md-6 mb-4 mb-md-0 d-flex flex-column align-items-center align-items-md-start">
+      <h4>Follow Us</h4>
+      <div class="d-flex justify-content-center justify-content-md-start align-items-center gap-4 mt-2">
+        <a href="#" class="text-white fs-4"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white fs-4"><i class="fab fa-facebook-square"></i></a>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-center">
+      <h4>Contact</h4>
+      <div class="d-flex align-items-center gap-2 mt-2">
+        <i class="fab fa-whatsapp fs-4"></i>
+        <p class="mb-0">+91-8726382932</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
